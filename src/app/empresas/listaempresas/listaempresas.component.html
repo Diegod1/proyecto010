@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004481;">
   <div class="container-fluid">
-    <img src="assets/bandera.svg"> <a class="navbar-brand" href="#">&nbsp;&nbsp;Grandes Empresas Colombianas</a>
+    <img src="assets/bandera.svg"> <a class="navbar-brand" href="#">&nbsp;&nbsp;Grandes empresas colombianas</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,16 +17,19 @@
           </ul>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Buscar empresa..." aria-label="Search">
-      </form>
+        <input class="form-control me-2" 
+               type="search" 
+               placeholder="Buscar empresa..." 
+               aria-label="Search"
+               #txtSearch (keyup) = "onSearchEmpresa(txtSearch.value)"/>
     </div>
   </div>
 </nav>
 <br>
+<br>
 <div *ngIf="empresas != null; else espera" class="m-0 row justify-content-center">
 
-  <div *ngFor="let empresa of empresas" class="card mb-3 element-b" style="max-width: 540px;">
+  <div *ngFor="let empresa of empresas | filtro:page:search" class="card mb-3 element-b" style="max-width: 540px;">
     <div class="row g-0 ">
       <div class="col-md-4">
         <img src="assets/empresa.svg" class="empresa-class" alt="Empresa">
@@ -41,6 +44,12 @@
       </div>
     </div>
   </div>
-
+  <div class="buttons-d">
+    <button class="btn btn-light" (click) = "prevPage()">Anterior</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-light" (click) = "nextPage()">siguiente</button>
+  </div>
+  <br>
+  <br>
 </div>
+
 <ng-template #espera>Esperando datos...</ng-template>

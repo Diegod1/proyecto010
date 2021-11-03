@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { FetchAllEmpresasResponse } from '../interfaces/empresas.interfaces';
-import { map } from 'rxjs/operators';
+import { FetchAllEmpresasResponse } from "../interfaces/empresas.interfaces";
+import { map , debounceTime } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -13,8 +13,14 @@ export class EmpresasService {
   getAllEmpresas(){
     return this.http.get<FetchAllEmpresasResponse>('https://www.datos.gov.co/resource/8hn7-rpp8.json')
     .pipe(
-      map( result => result)
+      map( this.transformEmpresas),debounceTime(500)
     )
   }
+  
+  private transformEmpresas(resp: FetchAllEmpresasResponse): FetchAllEmpresasResponse {
+
+    return resp;
+  }
+
 
 }

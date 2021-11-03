@@ -7,8 +7,8 @@
    viewBox="0 0 49.431999 41.09878"
    version="1.1"
    id="svg33139"
-   sodipodi:docname="empresa.svg"
-   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="empresa svg.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,10 +26,10 @@
      inkscape:zoom="1.7062791"
      inkscape:cx="153.25746"
      inkscape:cy="121.31661"
-     inkscape:window-width="1223"
-     inkscape:window-height="639"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     inkscape:window-width="1295"
+     inkscape:window-height="745"
+     inkscape:window-x="63"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-global="false"
@@ -48,9 +48,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-71.215526,86.885953)">
+    <rect
+       style="fill:#004481;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.573988;paint-order:stroke fill markers"
+       id="rect34446"
+       width="53.044758"
+       height="44.005741"
+       x="68.55629"
+       y="-89.048515" />
     <path
        sodipodi:type="star"
-       style="fill:#ce1126;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       style="fill:#ce1126;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;paint-order:stroke fill markers"
        id="path34492"
        inkscape:flatsided="false"
        sodipodi:sides="6"
@@ -66,7 +73,7 @@
        d="m -258.59465,-78.738756 -10.97529,-1.182723 -10.69911,-2.717556 -4.46338,-10.096248 -2.99608,-10.624477 6.51191,-8.91352 7.70303,-7.90692 10.9753,1.18272 10.6991,2.71755 4.46339,10.09625 2.99608,10.624478 -6.51192,8.913526 z" />
     <path
        sodipodi:type="star"
-       style="fill:#003893;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       style="fill:#003893;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;paint-order:stroke fill markers"
        id="path34494"
        inkscape:flatsided="false"
        sodipodi:sides="6"
@@ -82,7 +89,7 @@
        d="m -187.31535,-98.630649 -15.00468,4.248963 -15.45371,2.092105 -11.18206,-10.869959 -9.53867,-12.33725 3.82263,-15.11892 5.91504,-14.42936 15.00469,-4.24896 15.45371,-2.09211 11.18205,10.86996 9.53867,12.33725 -3.82263,15.11892 z" />
     <path
        sodipodi:type="star"
-       style="fill:#fbd015;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       style="fill:#fbd015;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;paint-order:stroke fill markers"
        id="path34496"
        inkscape:flatsided="false"
        sodipodi:sides="6"
