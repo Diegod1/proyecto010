@@ -1,0 +1,25 @@
+.element-b{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #004581bb;
+    color: azure;
+}
+
+.text-muted{
+    color: azure !important;
+}
+
+.card-text ,.card-title{
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.empresa-class{
+    width: 120px;
+}
+
+.buttons-d{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
